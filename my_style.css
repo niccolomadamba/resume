@@ -27,7 +27,9 @@ border-color:green;
 
 
 div.image {
-   content:url(http://www.opendocs.org/images/progLanguages.jpg);
+  width: 1580px;
+  height: 370px;
+  background: url("http://www.opendocs.org/images/progLanguages.jpg") no-repeat 0 0;
 }​
 
 
