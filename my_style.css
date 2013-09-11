@@ -3,10 +3,11 @@ p {
 	font-size:14pt;
 }
 
-#red {
+h2 {
 	color: red;
 	font-size:20pt;
-	
+  border-style:dotted;
+  border-color:green;
 }
 
 .line-separator{
@@ -20,11 +21,6 @@ border-bottom:1px solid #313030;
 }
 
 
-#red {
-border-style:dotted;
-border-color:green;
-}
-
 
 div.image {
   width: 1580px;
@@ -37,3 +33,21 @@ div.image {
 	color: red;
 }
 
+.button {
+  background: none repeat scroll 0 0 #CCCCCC;
+  border: 2px solid black;
+  border-radius: 10px 10px 10px 10px;
+  color: yellow;
+  display: block;
+  margin: 5px;
+  padding: 12px 30px 10px 30px;
+  text-align: center;
+  width: 100px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+.button:hover {
+  background: black;
+  color: white;
+}
