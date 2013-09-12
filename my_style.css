@@ -20,16 +20,13 @@ border-bottom:1px solid #313030;
 }
 
 
-#red {
-border-style:dotted;
+#red {border-style:dotted;
 border-color:green;
 }
 
 
 div.image {
-  width: 1580px;
-  height: 370px;
-  background: url("http://www.opendocs.org/images/progLanguages.jpg") no-repeat 0 0;
+   content:url(http://www.opendocs.org/images/progLanguages.jpg);
 }​
 
 
