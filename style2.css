@@ -1,0 +1,132 @@
+/* Reset styling */
+body, h1, h3, h4, p, ul, li, a, img {
+	margin: 0;
+	padding: 0;
+}
+
+/* Global styling */
+
+body {
+	background: #CCC;
+	font-family: Helvetica;
+}
+
+p {
+	margin: 15px 0 15px 0;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.col_left {
+	
+	float: left;
+	width: 300px;
+}
+
+ .col_right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+/*Page styling*/
+
+#page {
+	
+	width: 960px;
+	margin: 0 auto;
+	background: white;
+	padding: 20px;
+	
+}
+
+header {
+	padding: 20px;
+}
+
+header .col_left img {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+header .col_left h1 {
+	font-size: 18px;
+}
+
+header .col_left span {
+	font-size: 12px;
+}
+
+header .col_left h1, header .col_left span {
+	font-family: Helvetica;
+	text-transform: capitalize;
+}
+
+header #global_nav ul li, header #main_nav ul li, footer .col_right ul li  {
+	list-style: none;
+	display: inline;
+	padding-left: 20px;
+}
+	
+header #global_nav  {
+	
+	float: right;
+}
+
+header #main_nav {
+	
+	clear: both;
+	padding: 20px 0 0 0;
+}
+
+
+
+main {
+	
+}
+
+main img#banner {
+	width: 1000px;
+	height: 250px; 
+	margin-left: -20px;
+}
+
+main h1 {
+	font-weight: lighter;
+	margin: 20px  0 10px 0;
+}
+
+main img {
+	width: 160px;
+	height: 160px;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+main ul {
+	clear: both;
+	text-align: center;
+}
+
+main ul li {
+	
+	width: 276px;
+	display: inline-block;
+	padding: 15px;
+	
+}
+
+
+
+footer {
+	border-top: 1px solid gray;
+	padding: 20px 0 ;
+}
+
+footer p {
+	margin: 0;
+}
+
