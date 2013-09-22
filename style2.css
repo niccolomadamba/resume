@@ -84,15 +84,37 @@ header #main_nav {
 
 
 
-main {
+main img#box {
+	width: 120px;
+	height: 120px;
+	float: right;
+	padding-right: 300px;
+}
+
+main hr {
+	width: 700px;
+	margin-left: 0px;
+}
+
+main p#one {
+	width: 560px;
+	height: 100px;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	
+	
 	
 }
+
+
 
 main img#banner {
 	width: 1000px;
 	height: 250px; 
 	margin-left: -20px;
 }
+
+
 
 main h1 {
 	font-weight: lighter;
@@ -107,8 +129,12 @@ main img {
 }
 
 main ul {
-	clear: both;
+	
 	text-align: center;
+}
+
+main ul#links {
+	
 }
 
 main ul li {
