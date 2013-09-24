@@ -92,8 +92,9 @@ main hr {
 }
 
 main p#one {
-	width: 350px;
-	height: 240px;
+	width: 200px;
+	height: 200px;
+	
 	
 	
 	
@@ -120,17 +121,21 @@ main li#links {
 	
 }
 
-
-
-
-	
-
-	
-	
-	
-	
-	
+main ul#left {
+	float: right;
 }
+
+
+
+
+	
+
+	
+	
+	
+	
+	
+
 
 
 
@@ -149,8 +154,8 @@ main li#links {
 
 main img#banner {
 	width: 1000px;
-	height: 250px; 
-	margin-left: -20px;
+	height: 300px; 
+	
 }
 
 
