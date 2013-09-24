@@ -84,27 +84,66 @@ header #main_nav {
 
 
 
-main img#box {
-	width: 120px;
-	height: 120px;
-	float: right;
-	padding-right: 300px;
-}
+
 
 main hr {
-	width: 700px;
+	width: 550px;
 	margin-left: 0px;
 }
 
 main p#one {
-	width: 560px;
-	height: 100px;
-	margin-top: 25px;
-	margin-bottom: 30px;
+	width: 350px;
+	height: 240px;
 	
 	
 	
 }
+
+main img#service {
+	float: right;
+	margin-right: 450px;
+	margin-top: 25px;
+	width: 150px;
+	height: 140px;
+	
+}
+
+main li#links {
+	margin-left: 600px;
+	margin-bottom: 0px;
+	display: block;
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	padding-top: 10px;
+	border: 1px solid red;
+	
+}
+
+
+
+
+	
+
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -131,10 +170,6 @@ main img {
 main ul {
 	
 	text-align: center;
-}
-
-main ul#links {
-	
 }
 
 main ul li {
