@@ -175,17 +175,14 @@ main h1 {
 main img {
 	width: 160px;
 	height: 160px;
-	float: left;
-	padding: 0 20px 20px 0;
-	margin-left: -20;
 }
 
-main ul {
+main ul#home {
 	
 	text-align: center;
 }
 
-main ul li {
+main ul#home li {
 	
 	width: 276px;
 	display: inline-block;
@@ -193,6 +190,20 @@ main ul li {
 	
 }
 
+main ul#test li {
+  list-style: none;
+  display: inline-block
+}
+
+main ul#test li:first-child {
+  width: 500px;
+  border: 1px solid green;
+}
+
+main ul#test li:last-child {
+  width: 170px;
+  border: 1px solid red;
+}
 
 
 footer {
