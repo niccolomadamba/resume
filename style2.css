@@ -87,30 +87,39 @@ header #main_nav {
 
 
 main hr {
-	width: 550px;
+	width: 700px;
 	margin-left: 0px;
 }
 
 main p#one {
-	width: 200px;
-	height: 200px;
+	width: 500px;
+	height: 190px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	clear: left;
+	text-align: left;
+}
+
+main h3 {
+	margin-right: 850px;
+}
+
+main p#left {
 	
-	
-	
-	
+	margin-bottom: 50px;
 }
 
 main img#service {
 	float: right;
-	margin-right: 450px;
-	margin-top: 25px;
-	width: 150px;
-	height: 140px;
+	margin-right: 45px;
+	margin-top: 10px;
+	width: 130px;
+	height: 130px;
 	
 }
 
 main li#links {
-	margin-left: 600px;
+	margin-left: 0px;
 	margin-bottom: 0px;
 	display: block;
 	width: 200px;
@@ -189,10 +198,10 @@ main ul li {
 
 footer {
 	border-top: 1px solid gray;
-	padding: 20px 0 ;
+	padding: 10px 0 ;
 }
 
 footer p {
-	margin: 0;
+	margin: 0px;
 }
 
