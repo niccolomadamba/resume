@@ -110,11 +110,10 @@ main p#left {
 	margin-bottom: 50px;
 }
 
-main img#contentimage {
+main img#column_3 {
 	float: right;
-	margin-right: 10px;
-	width: 130px;
-	height: 130px;
+	width: 50px;
+	height: 50px;
 }
 
 main li#links {
