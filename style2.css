@@ -91,13 +91,14 @@ main hr {
 	margin-left: 0px;
 }
 
-main p#one {
-	width: 500px;
-	height: 190px;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	clear: left;
+main div#content p  {
+	width: 550px;
 	text-align: left;
+	
+	
+	
+	
+	
 }
 
 main h3 {
@@ -109,13 +110,11 @@ main p#left {
 	margin-bottom: 50px;
 }
 
-main img#service {
+main img#contentimage {
 	float: right;
-	margin-right: 45px;
-	margin-top: 10px;
+	margin-right: 10px;
 	width: 130px;
 	height: 130px;
-	
 }
 
 main li#links {
@@ -130,7 +129,7 @@ main li#links {
 	
 }
 
-main ul#left {
+main ul#sidebar {
 	float: right;
 }
 
@@ -179,6 +178,7 @@ main img {
 	height: 160px;
 	float: left;
 	padding: 0 20px 20px 0;
+	margin-left: -20;
 }
 
 main ul {
