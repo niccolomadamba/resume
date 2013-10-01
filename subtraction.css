@@ -1,3 +1,25 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: verdana;
+	background-color: white;
+	padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*Page styling*/
 
 #page {
@@ -6,10 +28,18 @@
 	background: white;
 	padding: 20px;
 	font-family: Helvetica;
+	
 }
 
-hr {
+ hr {
 	width: 960px;
+	height: 5px;
+	background-color: black;
+}
+
+header form {
+	float: right;
+	
 }
 
 header .top h1 {
@@ -18,9 +48,119 @@ header .top h1 {
 
 /*Drop Down*/
 
-header #main_nav ul li{
-	display: inline;
-	list-style: none;
-	padding-right: 20px;
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: verdana;
+	background-color: white;
+	padding: 50px;
+}
+
+/* rules for nav menu */
+
+ul#navmenu, ul.sub1, ul.sub2 {
+	list-style-type: none;
+	font-size: 12pt;
 	
 }
+
+ul#navmenu li {
+	
+	width: 125px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 4px;
+}
+
+ul#navmenu a {
+	text-decoration: none;
+	display: block;
+	width: 125px;
+	height: 25px;
+	line-height: 25px;
+	background-color: black;
+	
+	border-radius: 5px;
+}
+
+ul#navmenu .sub1 a {
+	margin-top: 5px;
+}
+
+ul#navmenu .sub2 a {
+	margin-left: 10px;
+}
+
+ul#navmenu li:hover > a {
+	background-color: #CFC;
+}
+
+ul#navmenu li:hover a:hover {
+	background-color: #FF0;
+}
+
+ul#navmenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 26px;
+	left: 0px;
+}
+
+ul#navmenu ul.sub2 {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 121px;
+}
+
+ul#navmenu li:hover .sub1 {
+	display: block;
+}
+
+ul#navmenu .sub1 li:hover .sub2 {
+	display:block;
+}
+
+.darrow {
+	font-size: 11pt;
+	position: absolute;
+	top:5px;
+	right:4px;
+	color: white;
+}
+
+.rarrow {
+	font-size: 8pt;
+	position: absolute;
+	top:8px;
+	right:1px;
+	color: white;
+}
+
+
+/*Main*/
+
+main img#banner {
+	width: 960px;
+	height: 450px;
+	float: ;
+}
+
+main h2 {
+	float: left;
+}
+
+main h3  {
+	float:left ;
+}
+
+main p  {
+	float: right;
+	padding-right: 550px;
+}
+
+

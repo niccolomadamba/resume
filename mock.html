@@ -13,37 +13,68 @@
   <div id="page">
    <header>
      <hr>
+     
+     <form action="http://www.example.com/search.php">
+     <input type="text" name="search" placeholder="Enter Keyword Here..."/>
+     <input type="submit" value="Search Here"/>
+     </form>
+     
      <div class="top">
        <h1>The Subtraction Mock</h1>
-       <span>slogan goes here</span>
      </div>
      
-    <nav id="main_nav">
-      <ul>
-        <li><a href="">Home</a></li>
-        <li>
-          <a href="">Categories</a>
-          <ul>
-            <li><a href="">Design</a></li>
-            <li><a href="">Technology</a></li>
-            <li><a href="">Publishing</a></li>
-            <li><a href="">Pop Culture</a></li>
-            <li><a href="">Apple</a></li>
-            <li><a href="">Personal</a></li>
-          </ul>
-        </li>
-
-            
-        <li><a href="">Archives</a></li>
-        <li><a href="">About</a></li>
-      </ul>
-    </nav>
+    <ul id="navmenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Categories</a><span class="darrow">&#9660;</span>
+        <ul class="sub1">
+           <li><a href="#">hyperlink 2.1</a></li>
+           <li><a href="#">hyperlink 2.2</a></li>
+           <li><a href="#">hyperlink 2.3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Archives</a></li>
+      <li><a href="#">About</a><span class="darrow">&#9660;</span>
+        <ul class="sub1">
+           <li><a href="#">hyperlink 4.1</a></li>
+           <li><a href="#">hyperlink 4.2</a></li>
+           <li><a href="#">hyperlink 4.3</a><span class="rarrow">&#9654;</span>
+             <ul class="sub2">
+                <li><a href="#">hyperlink 4.3.1</a></li>
+                <li><a href="#">hyperlink 4.3.2</a></li>
+                <li><a href="#">hyperlink 4.3.3</a></li>
+             </ul>
+           </li>
+        </ul>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+      
+    
     
    </header>
         
      
-   <main> 
+   <main>
      
+     
+     
+      
+     <img id="banner" src="images/forest.jpg" />
+     
+     <hr>
+     
+     <h3 class="name">Name</h3>
+     
+     <p class="nicco">Niccolo Madamba</p>
+     
+    
    
    
    
