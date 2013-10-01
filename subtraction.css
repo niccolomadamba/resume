@@ -1,0 +1,26 @@
+/*Page styling*/
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+	background: white;
+	padding: 20px;
+	font-family: Helvetica;
+}
+
+hr {
+	width: 960px;
+}
+
+header .top h1 {
+	font-size: 20px;
+}
+
+/*Drop Down*/
+
+header #main_nav ul li{
+	display: inline;
+	list-style: none;
+	padding-right: 20px;
+	
+}
