@@ -1,0 +1,68 @@
+/*Body*/
+
+body {
+	background: white;
+}
+
+body div#big {
+	border: 1px solid orange;
+	float: left;
+	
+}
+
+body div#container1 {
+	border: 1px solid green;
+	width: 450px;
+	height: 500px;
+	float: left;
+}
+
+body div#inside1 {
+	border: 1px dashed purple;
+	width: 200px;
+	height: 500px;
+	float: right;
+	background: #CCC;
+}
+
+body div#inside2 {
+	border: 1px dashed red;
+	width: 200px;
+	height: 500px;
+	background: #CCC;
+	
+}
+
+
+
+
+body div#container2 {
+	border: 1px solid blue;
+	width: 450px;
+	height: 500px;
+	margin-left: 50px;
+	float: right;
+}
+
+body div#inside3 {
+	border: 1px dashed purple;
+	width: 200px;
+	height: 500px;
+	float: right;
+	background: #CCC;
+}
+
+body div#inside4 {
+	border: 1px dashed red;
+	width: 200px;
+	height: 500px;
+	background: #CCC;
+}
+
+body div#lone {
+	border: 1px solid red;
+	width: 200px;
+	height: 500px;
+	margin-left: 50px;
+	float: left;
+}
