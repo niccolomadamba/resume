@@ -2,6 +2,8 @@
 
 body {
 	background: white;
+	margin: 0 auto;
+	width:1400px;
 }
 
 body div#big {
@@ -65,4 +67,5 @@ body div#lone {
 	height: 500px;
 	margin-left: 50px;
 	float: left;
+	background: #CCC;
 }

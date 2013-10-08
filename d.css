@@ -1,0 +1,23 @@
+/*Body*/
+
+body {
+	width: 960px;
+	margin: auto 0;
+	background: white;
+}
+
+
+#container {
+  width: 500px;
+  height: 600px;
+  float: left;
+  margin-right: -200px;
+  border: solid red;
+}
+#sidebar {
+  width: 200px;
+  height: 600px;
+  float: right;
+  border: solid blue;
+  margin-right: 200px;
+}

@@ -1,0 +1,48 @@
+/*Body*/
+
+body {
+	background: white;
+	margin: 0 auto;
+}
+
+body  li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+div#container {
+	border: orange dotted;
+	width: 1130px;
+	height: 500px;
+}
+
+body div#box1 {
+	width: 200px;
+	height: 400px;
+	border: red solid;
+}
+
+body div#box2 {
+	width: 200px;
+	height: 400px;
+	border: red solid;
+}
+
+body div#box3 {
+	width: 200px;
+	height: 400px;
+	border: red solid;
+}
+
+body div#box4 {
+	width: 200px;
+	height: 400px;
+	border: red solid;
+}
+
+body div#box5 {
+	width: 200px;
+	height: 400px;
+	border: red solid;
+}
+

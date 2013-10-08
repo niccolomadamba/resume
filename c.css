@@ -1,0 +1,14 @@
+/*Body*/
+
+body {
+	background: white;
+	
+}
+
+li {
+	display: inline-block;
+	width: 175px;
+	padding-left: 15px;
+	border: solid red;
+	height: 500px;
+}
